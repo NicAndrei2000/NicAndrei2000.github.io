@@ -1,0 +1,19 @@
+.layout{
+    height: 60vh;
+    background-color: #212534;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    
+}
+.content{
+    width: 90%;
+    text-align: justify;
+    color: white;
+}

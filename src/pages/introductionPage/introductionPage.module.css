@@ -1,0 +1,106 @@
+.layout {
+  display: flex;
+  justify-content: space-between; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+  background-color: #262b3d;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 700px;
+  /* background-color: brown; */
+  margin-left: 8rem;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+.content h1 {
+  font-size: 2.5em;
+  color: white;
+  width: 100%;
+}
+.content p {
+  font-size: 2.5em;
+  color: white;
+  width: 100%;
+  text-align: justify;
+}
+.typewriter {
+  position: relative;
+}
+.typewriter:after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  background-color: #262b3d;
+  width: 100%;
+  animation: typing 6s steps(31) infinite;
+}
+
+@keyframes typing {
+  to {
+    width: 23%;
+  }
+}
+.socialMedia {
+  display: flex;
+  float: left;
+  width: 100%;
+  margin-top: 1rem;
+}
+.facebook {
+  font-size: 3rem;
+  color: white;
+}
+.linkedin {
+  font-size: 3rem;
+  color: white;
+}
+.github {
+  font-size: 3rem;
+  color: white;
+}
+.socialMedia a {
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+.myImage {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 70%;
+}
+.myImage:before {
+  content: "";
+  height: 84%;
+  width: 84%;
+  right: 90px;
+  bottom: 90px;
+  border-radius: 50%;
+  position: absolute;
+  background: conic-gradient(
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7,
+    #fd004c
+  );
+  animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.myImage img {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+}

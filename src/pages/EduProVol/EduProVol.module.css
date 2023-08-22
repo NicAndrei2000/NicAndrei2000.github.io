@@ -1,0 +1,116 @@
+.layout {
+  height: 125vh;
+  background-color: #262b3d;
+}
+.title{
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+.container1 {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  padding-top: 30px;
+}
+.container1 h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+  color: white;
+}
+.container1 p {
+  font-size: 17px;
+}
+.education {
+  height: 50vh;
+  width: 90vh;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
+  margin-left: 20px;
+  /* border-right: 20px solid black; */
+  /* border-color: black; */
+}
+.contentE {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.volunteering {
+  height: 50vh;
+  width: 90vh;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
+  margin-right: 20px;
+}
+.contentV {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.containerUL {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.containerUL2 {
+  margin-left: 13px;
+}
+.bar {
+  height: 100%;
+  width: 10px;
+  background-color: black;
+  border-radius: 10px;
+}
+.container2 {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container2 h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.experiences {
+  height: 50vh;
+  width: 90vh;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
+  margin-left: 20px;
+
+}
+.contentEx {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.certifications {
+  height: 50vh;
+  width: 90vh;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
+  margin-right: 20px;
+}
+.contentC {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 15px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.certificationsUiPath {
+  margin-left: 30px;
+}

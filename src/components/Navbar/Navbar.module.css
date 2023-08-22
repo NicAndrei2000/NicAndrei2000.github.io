@@ -1,0 +1,23 @@
+.layout {
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: #25305a;
+  display: flex;
+  justify-content: center; /*horizontally centers the h1*/
+  align-items: center; /* vertically centers the h1 */
+  position: fixed;
+  z-index: 99999;
+}
+.title {
+  flex: 1;
+  color: white;
+}
+.title h1{
+  font-size: 25px;
+}
+p {
+  color: white;
+}
