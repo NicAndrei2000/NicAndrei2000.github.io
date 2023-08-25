@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./CategoryCard.module.css";
 import { Link} from "react-router-dom";
-
+import background from "../../assets/Images/ProjectBackground.jpg"
 function CategoryCard(props) {
   return (
     <Link to={`/ProjectsCategory/${props.title}`}>
       <div className={styles.categoryCard}>
         <img
           className={styles.categoryCardImage}
-          src={"sss"}
+          src={background}
           alt={props.title}
         />
         <div className={styles.categoryInfo}>

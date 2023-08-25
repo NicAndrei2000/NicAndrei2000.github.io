@@ -83,19 +83,28 @@ section {
 }
 
 .progressLine.html span {
-  width: 90%;
+  width: 95%;
 }
 .progressLine.css span {
-  width: 60%;
+  width: 95%;
 }
 .progressLine.JavaScript span {
-  width: 60%;
+  width: 85%;
 }
 .progressLine.React span {
-  width: 60%;
+  width: 75%;
 }
-.progressLine.MySQL span {
-  width: 60%;
+.progressLine.Cplusplus span {
+  width: 70%;
+}
+.progressLine.CSharp span {
+  width: 65%;
+}
+.progressLine.Java span {
+  width: 72%;
+}
+.progressLine.MySQLOracle span {
+  width: 75%;
 }
 .progressLine span::after {
   position: absolute;
@@ -110,17 +119,31 @@ section {
   /* opacity: 0; */
 }
 .progressLine.html span::after {
-  content: "90%";
+  content: "95%";
 }
 .progressLine.css span::after {
-  content: "90%";
+  content: "95%";
 }
 .progressLine.JavaScript span::after {
-  content: "90%";
+  content: "85%";
 }
 .progressLine.React span::after {
-  content: "90%";
+  content: "75%";
 }
+.progressLine.Cplusplus span::after {
+  content: "70%";
+}
+.progressLine.CSharp span::after {
+  content: "65%";
+}
+.progressLine.Java span::after {
+  content: "72%";
+}
+.progressLine.MySQLOracle span::after {
+  content: "75%";
+}
+
+
 .progressLine span::before {
   content: "";
   position: absolute;
@@ -186,21 +209,53 @@ section {
   stroke-linecap: round;
 }
 
-.path.path1 {
-  animation: animate-path1 1s 1s linear forwards;
+.path.communication {
+  animation: animate-communication 1s 1s linear forwards;
 }
-.path.path2 {
-    animation: animate-path2 1s 1s linear forwards;
+.path.Creativity {
+    animation: animate-Creativity 1s 1s linear forwards;
+  }
+  .path.Teamwork {
+    animation: animate-Teamwork 1s 1s linear forwards;
+  }
+  .path.Adaptability {
+    animation: animate-Adaptability 1s 1s linear forwards;
+  }
+  .path.ProblemSolving {
+    animation: animate-ProblemSolving 1s 1s linear forwards;
+  }
+  .path.TimeManagement {
+    animation: animate-TimeManagement 1s 1s linear forwards;
   }
 
-  @keyframes animate-path1{
+  @keyframes animate-communication{
     100%{
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 35;
     }
   }
-  @keyframes animate-path2{
+  @keyframes animate-Creativity{
     100%{
-        stroke-dashoffset: 50;
+        stroke-dashoffset: 90;
+    }
+  }
+  @keyframes animate-Teamwork{
+    100%{
+        stroke-dashoffset: 45;
+    }
+  }
+  @keyframes animate-Adaptability{
+    100%{
+        stroke-dashoffset: 93;
+    }
+  }
+  @keyframes animate-ProblemSolving{
+    100%{
+        stroke-dashoffset: 55;
+    }
+  }
+  @keyframes animate-TimeManagement{
+    100%{
+        stroke-dashoffset: 67;
     }
   }
 

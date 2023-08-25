@@ -11,7 +11,7 @@ function Skills() {
           <div className={styles.technicalBars}>
             <div className={styles.bar}>
               <div className={styles.info}>
-                <span>HTMLsdasadsd</span>
+                <span>HTML</span>
               </div>
               <div className={`${styles.progressLine} ${styles.html}`}>
                 <span></span>
@@ -27,7 +27,7 @@ function Skills() {
             </div>
             <div className={styles.bar}>
               <div className={styles.info}>
-                <span>HTMLsdasadsd</span>
+                <span>JavaScript</span>
               </div>
               <div className={`${styles.progressLine} ${styles.JavaScript}`}>
                 <span></span>
@@ -35,7 +35,7 @@ function Skills() {
             </div>
             <div className={styles.bar}>
               <div className={styles.info}>
-                <span>HTMLsdasadsd</span>
+                <span>React</span>
               </div>
               <div className={`${styles.progressLine} ${styles.React}`}>
                 <span></span>
@@ -43,9 +43,33 @@ function Skills() {
             </div>
             <div className={styles.bar}>
               <div className={styles.info}>
-                <span>HTMLsdasadsd</span>
+                <span>C++</span>
               </div>
-              <div className={`${styles.progressLine} ${styles.MySQL}`}>
+              <div className={`${styles.progressLine} ${styles.Cplusplus}`}>
+                <span></span>
+              </div>
+            </div>
+            <div className={styles.bar}>
+              <div className={styles.info}>
+                <span>C#</span>
+              </div>
+              <div className={`${styles.progressLine} ${styles.CSharp}`}>
+                <span></span>
+              </div>
+            </div>
+            <div className={styles.bar}>
+              <div className={styles.info}>
+                <span>Java</span>
+              </div>
+              <div className={`${styles.progressLine} ${styles.Java}`}>
+                <span></span>
+              </div>
+            </div>
+            <div className={styles.bar}>
+              <div className={styles.info}>
+                <span>MySQL & SQL Oracle</span>
+              </div>
+              <div className={`${styles.progressLine} ${styles.MySQLOracle}`}>
                 <span></span>
               </div>
             </div>
@@ -64,14 +88,14 @@ function Skills() {
                   r="80"
                 ></circle>
                 <circle
-                  className={`${styles.path} ${styles.path1}`}
+                  className={`${styles.path} ${styles.communication}`}
                   cx="100"
                   cy="100"
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>90%</div>
-              <div className={styles.text}>creativity</div>
+              <div className={styles.percentage}>98%</div>
+              <div className={styles.text}>Communication</div>
             </div>
 
             <div className={styles.radialBar}>
@@ -83,14 +107,14 @@ function Skills() {
                   r="80"
                 ></circle>
                 <circle
-                  className={`${styles.path} ${styles.path2}`}
+                  className={`${styles.path} ${styles.Creativity}`}
                   cx="100"
                   cy="100"
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>90%</div>
-              <div className={styles.text}>creativity</div>
+              <div className={styles.percentage}>84%</div>
+              <div className={styles.text}>Creativity</div>
             </div>
             <div className={styles.radialBar}>
               <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -101,14 +125,14 @@ function Skills() {
                   r="80"
                 ></circle>
                 <circle
-                  className={`${styles.path} ${styles.path2}`}
+                  className={`${styles.path} ${styles.Teamwork}`}
                   cx="100"
                   cy="100"
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>90%</div>
-              <div className={styles.text}>creativity</div>
+              <div className={styles.percentage}>95%</div>
+              <div className={styles.text}>Teamwork</div>
             </div>
             <div className={styles.radialBar}>
               <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -119,14 +143,51 @@ function Skills() {
                   r="80"
                 ></circle>
                 <circle
-                  className={`${styles.path} ${styles.path2}`}
+                  className={`${styles.path} ${styles.Adaptability}`}
                   cx="100"
                   cy="100"
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>90%</div>
-              <div className={styles.text}>creativity</div>
+              <div className={styles.percentage}>83%</div>
+              <div className={styles.text}>Adaptability</div>
+            </div>
+            <div className={styles.radialBar}>
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle
+                  className={styles.progressBar}
+                  cx="100"
+                  cy="100"
+                  r="80"
+                ></circle>
+                <circle
+                  className={`${styles.path} ${styles.ProblemSolving
+                  }`}
+                  cx="100"
+                  cy="100"
+                  r="80"
+                ></circle>
+              </svg>
+              <div className={styles.percentage}>92%</div>
+              <div className={styles.text}>Problem-solving</div>
+            </div>
+            <div className={styles.radialBar}>
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle
+                  className={styles.progressBar}
+                  cx="100"
+                  cy="100"
+                  r="80"
+                ></circle>
+                <circle
+                  className={`${styles.path} ${styles.TimeManagement}`}
+                  cx="100"
+                  cy="100"
+                  r="80"
+                ></circle>
+              </svg>
+              <div className={styles.percentage}>88%</div>
+              <div className={styles.text}>Time management</div>
             </div>
           </div>
         </div>

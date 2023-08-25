@@ -1,5 +1,10 @@
 .layout{
     height: 100vh;
-    background-color: #262b3d;
-    
+    background-color: #262b3d;   
+}
+.title{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3rem;
+    color: white;
 }

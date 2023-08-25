@@ -8,8 +8,8 @@ a {
     flex-direction: column;
     align-items: center;
     position: relative;
-    height: 190px;
-    width: 350px;
+    height: 240px;
+    width: 380px;
     border: 1px solid;
     border-radius: 10px;
   }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./introductionPage.module.css";
+import personalImg from '../../assets/Images/PozaNicAndrei.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faFacebook,faLinkedin,faGithub} from '@fortawesome/free-brands-svg-icons'
 
@@ -16,7 +17,7 @@ function introductionPage() {
         </div>
       </div>
       <div className={styles.myImage}>
-        <img src="/Images/PozaNicAndrei.jpeg" alt="Doesn't load"/>
+        <img src={personalImg} alt="Doesn't load"/>
       </div>
     </div>
   );

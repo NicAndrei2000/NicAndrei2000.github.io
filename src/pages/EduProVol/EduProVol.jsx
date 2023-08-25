@@ -118,7 +118,7 @@ function EduProVol() {
       </div>
       <div className={styles.container2}>
         <div className={styles.experiences}>
-          <h1>Technical experiences</h1>
+          <h1>Technical / work experiences</h1>
           <div className={styles.contentEx}>
             <ul>
               <li>
@@ -146,7 +146,6 @@ function EduProVol() {
             </ul>
           </div>
         </div>
-        {/* <div className={styles.bar}></div> */}
         <div className={styles.certifications}>
           <h1>Certifications</h1>
           <div className={styles.contentC}>

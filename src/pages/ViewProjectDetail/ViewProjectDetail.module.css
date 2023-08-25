@@ -1,0 +1,45 @@
+.layout {
+  background-color: #262b3d;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+.content {
+  height: 100vh;
+  width: 150vh;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Set the box shadow */
+  height: auto; /* Use auto to prevent scrollbar */
+
+}
+.content p {
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 1.5;
+  text-align: justify;
+}
+.content ul {
+    line-height: 1.5;
+    /* text-align: center; */
+    color: white;
+    margin-left: 20px;
+  }
+.title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+.imageSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ULcontainer{
+    display: flex;
+    justify-content: center; /* Pentru centrat orizontal */
+    align-items: center; 
+}
+

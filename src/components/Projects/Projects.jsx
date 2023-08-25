@@ -7,17 +7,17 @@ function Projects() {
     const projects=[
         {
             id:"p1",
-            title:"Exemplu1",
+            title:"editorVideoGallery",
             img:"img1"
         },
         {
             id:"p2",
-            title:"Exemplu2",
+            title:"freelancingWebsite",
             img:"img1"
         },
         {
             id:"p3",
-            title:"Exemplu3",
+            title:"volleyballGame",
             img:"img1"
         },
        
