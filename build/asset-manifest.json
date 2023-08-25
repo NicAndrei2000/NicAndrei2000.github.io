@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.15ba087b.css",
-    "main.js": "/static/js/main.b9700252.js",
-    "static/js/787.8271c200.chunk.js": "/static/js/787.8271c200.chunk.js",
-    "index.html": "/index.html",
-    "main.15ba087b.css.map": "/static/css/main.15ba087b.css.map",
-    "main.b9700252.js.map": "/static/js/main.b9700252.js.map",
-    "787.8271c200.chunk.js.map": "/static/js/787.8271c200.chunk.js.map"
+    "main.css": "/nicandrei2000.github.io/static/css/main.25d2120d.css",
+    "main.js": "/nicandrei2000.github.io/static/js/main.fcbe1a8c.js",
+    "static/js/787.8271c200.chunk.js": "/nicandrei2000.github.io/static/js/787.8271c200.chunk.js",
+    "static/media/Atestat3.PNG": "/nicandrei2000.github.io/static/media/Atestat3.8f162c31a0e3069a18cf.PNG",
+    "static/media/Atestat1.PNG": "/nicandrei2000.github.io/static/media/Atestat1.40657e83d03cba191145.PNG",
+    "static/media/Atestat2.PNG": "/nicandrei2000.github.io/static/media/Atestat2.3fc70a235e0fe7e546d7.PNG",
+    "static/media/Licenta4.PNG": "/nicandrei2000.github.io/static/media/Licenta4.27ba21a7cf445a40a41f.PNG",
+    "static/media/Licenta2.PNG": "/nicandrei2000.github.io/static/media/Licenta2.42945b26d1ef7026ef74.PNG",
+    "static/media/Licenta5.PNG": "/nicandrei2000.github.io/static/media/Licenta5.542c6a564d5c01662f84.PNG",
+    "static/media/ProjectBackground.jpg": "/nicandrei2000.github.io/static/media/ProjectBackground.26fd2cf6d9131293db5f.jpg",
+    "static/media/Licenta1.PNG": "/nicandrei2000.github.io/static/media/Licenta1.a25b0fa9890b4d1ba76d.PNG",
+    "static/media/Licenta3.PNG": "/nicandrei2000.github.io/static/media/Licenta3.967450e2084a7adf0172.PNG",
+    "static/media/Licenta6.PNG": "/nicandrei2000.github.io/static/media/Licenta6.d18fd9ee0e33b593ff4d.PNG",
+    "static/media/PozaNicAndrei.jpeg": "/nicandrei2000.github.io/static/media/PozaNicAndrei.a4ac1a382b27ce9a088c.jpeg",
+    "index.html": "/nicandrei2000.github.io/index.html",
+    "main.25d2120d.css.map": "/nicandrei2000.github.io/static/css/main.25d2120d.css.map",
+    "main.fcbe1a8c.js.map": "/nicandrei2000.github.io/static/js/main.fcbe1a8c.js.map",
+    "787.8271c200.chunk.js.map": "/nicandrei2000.github.io/static/js/787.8271c200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15ba087b.css",
-    "static/js/main.b9700252.js"
+    "static/css/main.25d2120d.css",
+    "static/js/main.fcbe1a8c.js"
   ]
 }
