@@ -5,7 +5,7 @@ function Skills() {
   return (
     <div className={styles.layout} id="mySkills">
       <h1 className={styles.title}><span>My</span> Skills</h1>
-      <section>
+      <div className={styles.sectionSkills}>
         <div className={styles.container1}>
           <h1 className={styles.heading1}>Technical Skills</h1>
           <div className={styles.technicalBars}>
@@ -191,7 +191,7 @@ function Skills() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

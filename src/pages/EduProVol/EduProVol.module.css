@@ -1,6 +1,8 @@
 .layout {
-  height: 125vh;
+  height: auto;
+  min-height: 125vh;
   background-color: #262b3d;
+  padding-bottom: 40px;
 }
 .title{
   color: white;
@@ -9,13 +11,23 @@
   margin-bottom: 2rem;
   padding-top: 2rem;
 }
-.container1 {
+/* .container1 {
   height: 50vh;
-  width: 100%;
+  width: 120;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 80px;
+  padding-top: 30px;
+} */
+.container1 {
+  height: auto;
+  /* min-height: 110vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 80px; */
   padding-top: 30px;
 }
 .container1 h1 {
@@ -28,7 +40,8 @@
   font-size: 17px;
 }
 .education {
-  height: 50vh;
+  height: auto;
+  min-height: 45vh;
   width: 90vh;
   box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
   margin-left: 20px;
@@ -44,7 +57,8 @@
 }
 
 .volunteering {
-  height: 50vh;
+  height: auto;
+  min-height: 45vh;
   width: 90vh;
   box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
   margin-right: 20px;
@@ -72,22 +86,25 @@
 }
 .container2 {
   height: 50vh;
-  width: 100%;
+  width: 120;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .container2 h1 {
   text-align: center;
   margin-top: 10px;
   font-size: 24px;
 }
 .experiences {
-  height: 50vh;
+  height: auto;
+  min-height: 45vh;
   width: 90vh;
   color: white;
   box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
   margin-left: 20px;
+  margin-top: 40px;
 
 }
 .contentEx {
@@ -98,11 +115,12 @@
   text-align: justify;
 }
 .certifications {
-  height: 50vh;
+  height: auto;
   width: 90vh;
   color: white;
   box-shadow: 0px 0px 10px rgba(0, 238, 255, 1); /* Set the box shadow */
   margin-right: 20px;
+  margin-top: 40px;
 }
 .contentC {
   margin-top: 10px;

@@ -95,28 +95,10 @@ function EduProVol() {
                 <ul></ul>
               </div>
             </p>
-
-            {/* <p>
-              In my last year of college I was part of the{" "}
-              <strong>IT department</strong>. In this department I was part of
-              the frontend team, and my goal was to make websites for different
-              projects. Websites made:{" "}
-              <a href="https://itfest.sisc.ro/" target="blank">
-                https://itfest.sisc.ro/
-              </a>
-              ,{" "}
-              <a href="https://hope.sisc.ro/" target="blank">
-                https://hope.sisc.ro/
-              </a>
-              ,{" "}
-              <a href="https://springit.sisc.ro/" target="blank">
-                https://springit.sisc.ro/
-              </a>
-            </p> */}
           </div>
         </div>
-      </div>
-      <div className={styles.container2}>
+      {/* </div> */}
+      {/* <div className={styles.container2}> */}
         <div className={styles.experiences}>
           <h1>Technical / work experiences</h1>
           <div className={styles.contentEx}>
@@ -133,15 +115,17 @@ function EduProVol() {
                 different companies.
               </li>
               <br />
-              <li>I did an internshipt at <strong>Arggo Consulting</strong>:</li>
+              <li>
+                I did an internshipt at <strong>Arggo Consulting</strong>:
+              </li>
               <p>
                 &nbsp;&nbsp;&nbsp; I worked in the IT frontend field. I
                 developed my skills in: HTML, CSS, JavaScript and React.
               </p>
               <br />
               <li>
-                I did an internship at <strong>Ernst & Young</strong>. I learned to work in
-                UiPath Studio.
+                I did an internship at <strong>Ernst & Young</strong>. I learned
+                to work in UiPath Studio.
               </li>
             </ul>
           </div>

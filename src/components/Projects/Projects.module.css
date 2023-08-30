@@ -1,5 +1,6 @@
 .ProjectsContainer {
     min-height: 65vh;
+    width: 90%;
     padding: 1rem;
     padding-top: 5rem;
     display: grid;
@@ -7,5 +8,6 @@
     gap: 0.5rem;
     justify-items: center;
     align-items: center;
+    margin-right: 0px;
   }
   
