@@ -15,7 +15,7 @@ function CategoryCard(props) {
           <h2 className={styles.categoryCardTitle}>
             {`${props.title.charAt(0).toUpperCase()}${props.title.slice(1)}`}
           </h2>
-          <p className={styles.description}>{"Merge"}</p>
+          <div className={styles.description}>{props.content}</div>
         </div>
       </div>
     </Link>

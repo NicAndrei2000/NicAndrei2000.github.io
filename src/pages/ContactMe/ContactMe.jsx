@@ -55,7 +55,7 @@ function ContactMe() {
   return (
     <div className={styles.layout} id="contact">
       <div className={styles.content}>
-        <h1 className={styles.title}>Contact Me</h1>
+        <h1 className={styles.title}>Contact <span>Me</span></h1>
       </div>
       <div className={styles.formStyle}>
         <form className={styles.formS} ref={form} onSubmit={sendEmail}>
@@ -69,7 +69,7 @@ function ContactMe() {
           {errors.enteredName && (
             <p style={{ color: "red" }}>{errors.enteredName}</p>
           )}
-          <label>Email</label>
+          <label>Your email</label>
           <input
             type="text"
             name="user_email"

@@ -12,8 +12,13 @@
     margin-bottom: 2rem;
     
 }
+.title span{
+    color:#0ef;    ;
+    font-size: 3rem;
+}
 .content{
     width: 90%;
     text-align: justify;
     color: white;
+    line-height: 1.5;
 }

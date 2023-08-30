@@ -150,6 +150,8 @@ function EduProVol() {
           <h1>Certifications</h1>
           <div className={styles.contentC}>
             <ul>
+              <li>Bachelor's degree</li>
+              <br />
               <li>Certificate of professional competence</li>
               <br />
               <li>Database Design and Programming with SQL Oracle</li>

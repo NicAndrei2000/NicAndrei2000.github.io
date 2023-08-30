@@ -1,5 +1,5 @@
 .layout {
-  height: 95vh;
+  height: 94vh;
   background-color: #212534;
   position: relative;
   color: white;
@@ -8,7 +8,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -18%);
+  transform: translate(-50%, -35%);
   height: 410px;
   width: 480px;  
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Set the box shadow */
@@ -27,11 +27,8 @@
 .formS input{
   width: 450px;
   height: 30px;
-  background-color:#918F8E ;
   /* opacity: 100%; */
   cursor: text;
-  color: white; /* Set the text color */
-  caret-color: white; /* Set color of the cursor */
   border: none; /* Remove the default border */
   outline: none; /* Remove the default outline */
   padding: 5px; /* Add some padding to the input for spacing */
@@ -47,11 +44,13 @@
 .formS textarea{
   width: 450px;
   height: 100px;
-  background-color:#918F8E ;
-  color: white; /* Set the text color */
+  /* background-color:#918F8E ; */
+  /* color: white; Set the text color */
   border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 8px;
 }
 
   .formS button {
@@ -79,6 +78,10 @@
     text-align: center;
     padding-top: 3rem;
     font-size: 3rem;
+}
+.title span{
+  color: #0ef;
+  font-size: 3rem;
 }
 .info{
   height: 20px;

@@ -5,7 +5,7 @@ import Projects from '../../components/Projects/Projects'
 function MyProjects() {
   return (
     <div className={styles.layout} id='myProjects'>
-      <h1 className={styles.title}>My projects</h1>
+      <h1 className={styles.title}><span>My</span> projects</h1>
       <Projects/>
     </div>
   )

@@ -1,16 +1,18 @@
 .layout {
   background-color: #262b3d;
-  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
+  height: auto;
+  min-height: 110vh;
 }
 .content {
   height: 100vh;
   width: 150vh;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); /* Set the box shadow */
   height: auto; /* Use auto to prevent scrollbar */
+  margin-bottom: 40px;
+  margin-top: 40px;
 
 }
 .content p {
@@ -41,5 +43,9 @@
     display: flex;
     justify-content: center; /* Pentru centrat orizontal */
     align-items: center; 
+}
+.LicenseULContainer
+{
+  margin-left: 7rem;
 }
 

@@ -48,4 +48,11 @@ a {
   
     border-radius: 10px;
   }
+  .description{
+    color: black;
+  }
+  .description p{
+    color: black;
+    text-align: center;
+  }
   

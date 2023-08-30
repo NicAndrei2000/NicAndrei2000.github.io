@@ -8,6 +8,10 @@
     padding-top: 3rem;
     font-size: 3rem;
 }
+.title span{
+  color: #0ef;
+  font-size: 3rem;
+}
 section {
   display: flex;
   flex-wrap: wrap;
@@ -92,7 +96,7 @@ section {
   width: 85%;
 }
 .progressLine.React span {
-  width: 75%;
+  width: 82%;
 }
 .progressLine.Cplusplus span {
   width: 70%;
@@ -128,7 +132,7 @@ section {
   content: "85%";
 }
 .progressLine.React span::after {
-  content: "75%";
+  content: "82%";
 }
 .progressLine.Cplusplus span::after {
   content: "70%";
