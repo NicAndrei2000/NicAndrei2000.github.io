@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.25d2120d.css",
-    "main.js": "/static/js/main.5c5bcdc2.js",
+    "main.css": "/static/css/main.c86d44e5.css",
+    "main.js": "/static/js/main.ad66daf5.js",
     "static/js/787.8271c200.chunk.js": "/static/js/787.8271c200.chunk.js",
     "static/media/Atestat3.PNG": "/static/media/Atestat3.8f162c31a0e3069a18cf.PNG",
+    "static/media/EV1.PNG": "/static/media/EV1.96fb729184cc8f51f63f.PNG",
+    "static/media/EV2.PNG": "/static/media/EV2.86619ae18a55f55bed62.PNG",
     "static/media/Atestat1.PNG": "/static/media/Atestat1.40657e83d03cba191145.PNG",
+    "static/media/EV3.PNG": "/static/media/EV3.382777e7bee3165e9239.PNG",
     "static/media/Atestat2.PNG": "/static/media/Atestat2.3fc70a235e0fe7e546d7.PNG",
     "static/media/Licenta4.PNG": "/static/media/Licenta4.27ba21a7cf445a40a41f.PNG",
     "static/media/Licenta2.PNG": "/static/media/Licenta2.42945b26d1ef7026ef74.PNG",
@@ -15,12 +18,12 @@
     "static/media/Licenta6.PNG": "/static/media/Licenta6.d18fd9ee0e33b593ff4d.PNG",
     "static/media/PozaNicAndrei.jpeg": "/static/media/PozaNicAndrei.a4ac1a382b27ce9a088c.jpeg",
     "index.html": "/index.html",
-    "main.25d2120d.css.map": "/static/css/main.25d2120d.css.map",
-    "main.5c5bcdc2.js.map": "/static/js/main.5c5bcdc2.js.map",
+    "main.c86d44e5.css.map": "/static/css/main.c86d44e5.css.map",
+    "main.ad66daf5.js.map": "/static/js/main.ad66daf5.js.map",
     "787.8271c200.chunk.js.map": "/static/js/787.8271c200.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d2120d.css",
-    "static/js/main.5c5bcdc2.js"
+    "static/css/main.c86d44e5.css",
+    "static/js/main.ad66daf5.js"
   ]
 }
