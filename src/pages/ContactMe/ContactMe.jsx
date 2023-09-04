@@ -43,11 +43,11 @@ function ContactMe() {
         )
         .then(
           (result) => {
-            console.log(result.text);
+            // console.log(result.text);
             alert("Message send!");
           },
           (error) => {
-            console.log(error.text);
+            // console.log(error.text);
           }
         );
     }
@@ -55,7 +55,9 @@ function ContactMe() {
   return (
     <div className={styles.layout} id="contact">
       <div className={styles.content}>
-        <h1 className={styles.title}>Contact <span>Me</span></h1>
+        <h1 className={styles.title}>
+          Contact <span>Me</span>
+        </h1>
       </div>
       <div className={styles.formStyle}>
         <form className={styles.formS} ref={form} onSubmit={sendEmail}>

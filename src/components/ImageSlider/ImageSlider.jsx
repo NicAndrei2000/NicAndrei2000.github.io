@@ -3,7 +3,6 @@ import { useState } from "react";
 const slideStyles = {
   width: "100%",
   height: "100%",
-  //   borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
 };
@@ -12,7 +11,7 @@ const rightArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  right: "32px",
+  right: "-0.8%",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,
@@ -23,7 +22,7 @@ const leftArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  left: "32px",
+  left: "-0.8%",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,
@@ -33,10 +32,7 @@ const leftArrowStyles = {
 const sliderStyles = {
   position: "relative",
   height: "40rem",
-  width: "80rem",
-  // transform: "translate(-50%, -50%)", // Adjusted the transform heres
-  // top: "50%",
-  // left: "50%",
+  width: "70rem",
 };
 
 const dotsContainerStyles = {
@@ -70,7 +66,7 @@ const ImageSlider = ({ slides }) => {
     // backgroundImage: `url(${slides[currentIndex].url})`,
     backgroundImage: `url(${slides[currentIndex].url})`,
     backgroundRepeat: "no-repeat", // Changed to camelCase
-    backgroundSize: "90% 90%", // Changed to camelCase
+    backgroundSize: "90% auto", // Changed to camelCase
   };
 
   return (

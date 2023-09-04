@@ -3,42 +3,73 @@
   height: auto;
   color: white;
   background-color: #212534;
+  padding-top: 2rem;
 }
-.title{
-    text-align: center;
-    padding-top: 3rem;
-    font-size: 3rem;
+.title {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 3rem;
 }
-.title span{
+.title span {
   color: #0ef;
   font-size: 3rem;
 }
 .sectionSkills {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  height: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .sectionSkills {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  }
 }
 .container1 {
-  /* width: 600px; */
   max-width: 600px;
   padding: 75px 90px;
   margin-left: 120px;
 }
-.container2 {
-    /* width: 600px; */
-    max-width: 600px;
-    padding: 75px 90px;
-    margin-right: 120px;
-    margin-left: 120px;
 
+.container2 {
+  /* width: 600px; */
+  max-width: 600px;
+  padding: 75px 90px;
+  margin-right: 80px;
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .container1 {
+    margin-left: 10px;
+    width: 90%;
   }
+  .container2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 290px) {
+  .container1 {
+    width: 90%;
+  }
+  .container1 .heading1{
+    font-size: 1.2rem;
+  }
+  .container2 {
+    width: 80%;
+  }
+  .container2 .heading1{
+    font-size: 1.2rem;
+  }
+}
 .heading1 {
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 10px;
   text-decoration-thickness: 5px;
   margin-bottom: 50px;
+  font-size: 1.5rem;
 }
 .info {
   margin-top: 55px;
@@ -56,7 +87,7 @@
   margin-bottom: 0;
 }
 .technicalBars .bar .info span {
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: 500;
   animation: showText 0.5s 1s linear forwards;
   /* opacity: 0; */
@@ -117,7 +148,7 @@
   padding: 1px 8px;
   background-color: #000;
   color: white;
-  font-size: 12px;
+  font-size: 0.9rem;
   border-radius: 12px;
   top: -28px;
   right: -20px;
@@ -148,7 +179,6 @@
 .progressLine.MySQLOracle span::after {
   content: "75%";
 }
-
 
 .progressLine span::before {
   content: "";
@@ -181,6 +211,13 @@
   height: 170px;
   margin-bottom: 10px;
   position: relative;
+  display: block;
+}
+
+@media screen and (max-width: 450px) {
+  .radialBars .radialBar {
+    width: 70%;
+  }
 }
 
 .radialBars .radialBar svg {
@@ -219,71 +256,70 @@
   animation: animate-communication 1s 1s linear forwards;
 }
 .path.Creativity {
-    animation: animate-Creativity 1s 1s linear forwards;
-  }
-  .path.Teamwork {
-    animation: animate-Teamwork 1s 1s linear forwards;
-  }
-  .path.Adaptability {
-    animation: animate-Adaptability 1s 1s linear forwards;
-  }
-  .path.ProblemSolving {
-    animation: animate-ProblemSolving 1s 1s linear forwards;
-  }
-  .path.TimeManagement {
-    animation: animate-TimeManagement 1s 1s linear forwards;
-  }
+  animation: animate-Creativity 1s 1s linear forwards;
+}
+.path.Teamwork {
+  animation: animate-Teamwork 1s 1s linear forwards;
+}
+.path.Adaptability {
+  animation: animate-Adaptability 1s 1s linear forwards;
+}
+.path.ProblemSolving {
+  animation: animate-ProblemSolving 1s 1s linear forwards;
+}
+.path.TimeManagement {
+  animation: animate-TimeManagement 1s 1s linear forwards;
+}
 
-  @keyframes animate-communication{
-    100%{
-        stroke-dashoffset: 35;
-    }
+@keyframes animate-communication {
+  100% {
+    stroke-dashoffset: 35;
   }
-  @keyframes animate-Creativity{
-    100%{
-        stroke-dashoffset: 90;
-    }
+}
+@keyframes animate-Creativity {
+  100% {
+    stroke-dashoffset: 90;
   }
-  @keyframes animate-Teamwork{
-    100%{
-        stroke-dashoffset: 45;
-    }
+}
+@keyframes animate-Teamwork {
+  100% {
+    stroke-dashoffset: 45;
   }
-  @keyframes animate-Adaptability{
-    100%{
-        stroke-dashoffset: 93;
-    }
+}
+@keyframes animate-Adaptability {
+  100% {
+    stroke-dashoffset: 93;
   }
-  @keyframes animate-ProblemSolving{
-    100%{
-        stroke-dashoffset: 55;
-    }
+}
+@keyframes animate-ProblemSolving {
+  100% {
+    stroke-dashoffset: 55;
   }
-  @keyframes animate-TimeManagement{
-    100%{
-        stroke-dashoffset: 67;
-    }
+}
+@keyframes animate-TimeManagement {
+  100% {
+    stroke-dashoffset: 67;
   }
+}
 
-  .radialBar .percentage{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-  }
+.radialBar .percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+}
 
-  .radialBar .text{
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    bottom: -5px;
-    transform: translate(-50px);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-
-  }
+.radialBar .text {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50px;
+  bottom: -5px;
+  transform: translate(-50px);
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+}

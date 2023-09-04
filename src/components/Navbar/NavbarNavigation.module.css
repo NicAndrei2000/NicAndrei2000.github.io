@@ -20,3 +20,45 @@
   .nav p{
     font-size: 18px;
   }
+  .menu{
+    color: white;
+    height: 30px;
+    width: 30px;
+    position: relative;
+  }
+  .menu:after {
+    content: "";
+    margin: 0 0.5em;
+    display: inline-block;
+    border: 7px solid transparent;
+    border-top: 8px solid #fca311;
+    border-bottom: 0 none;
+  }
+  .dropdownContent {
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    padding: 0.5rem 0;
+    border-radius: 4px;
+    flex-direction: column;
+    position: absolute;
+    background-color: #25305a;
+    color: white;
+    gap: 1rem;
+    right: 0.5%;
+  }
+  .menu:hover .dropdownContent {
+    display: flex;
+  }
+  .dropdownContent a {
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+  }
+  .dropdownContent a:hover {
+    background-color: #fca311;
+    color: #fff;
+  }
+  

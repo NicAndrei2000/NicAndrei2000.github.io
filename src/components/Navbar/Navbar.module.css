@@ -1,7 +1,7 @@
 .layout {
   top: 0;
   left: 0;
-  height: 5rem;
+  height: 4rem;
   width: 100%;
   padding: 0 2rem;
   background-color: #25305a;
@@ -16,7 +16,7 @@
   color: white;
 }
 .title h1{
-  font-size: 25px;
+  font-size: 2rem;
 }
 p {
   color: white;

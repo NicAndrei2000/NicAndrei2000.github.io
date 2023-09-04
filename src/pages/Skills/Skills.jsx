@@ -4,7 +4,9 @@ import styles from "./Skills.module.css";
 function Skills() {
   return (
     <div className={styles.layout} id="mySkills">
-      <h1 className={styles.title}><span>My</span> Skills</h1>
+      <h1 className={styles.title}>
+        <span>My</span> Skills
+      </h1>
       <div className={styles.sectionSkills}>
         <div className={styles.container1}>
           <h1 className={styles.heading1}>Technical Skills</h1>
@@ -161,8 +163,7 @@ function Skills() {
                   r="80"
                 ></circle>
                 <circle
-                  className={`${styles.path} ${styles.ProblemSolving
-                  }`}
+                  className={`${styles.path} ${styles.ProblemSolving}`}
                   cx="100"
                   cy="100"
                   r="80"

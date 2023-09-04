@@ -1,6 +1,7 @@
 .layout{
-    height: 80vh;
-    background-color: #262b3d;   
+    height: auto;
+    background-color: #262b3d;
+    padding-top: 1.5rem;   
 }
 .title{
     text-align: center;

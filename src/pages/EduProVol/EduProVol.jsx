@@ -6,7 +6,7 @@ function EduProVol() {
     <div className={styles.layout} id="eduProvVol">
       <h1 className={styles.title}>Experiences</h1>
       <div className={styles.container1}>
-        <div className={styles.education}>
+        <div className={styles.box}>
           <h1>Education</h1>
           <div className={styles.contentE}>
             <p>
@@ -35,8 +35,7 @@ function EduProVol() {
             </p>
           </div>
         </div>
-        {/* <div className={styles.bar}></div> */}
-        <div className={styles.volunteering}>
+        <div className={styles.box}>
           <h1>Volunteering</h1>
           <div className={styles.contentV}>
             <p>
@@ -44,7 +43,8 @@ function EduProVol() {
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROSOFT multidisciplinary
                 competition{" "}
               </strong>
-              <ul className={styles.containerUL2}>
+            </p>
+            <ul className={styles.containerUL2}>
                 <li>I have exchanged IT experience with people from abroad</li>
                 <li>I developed my IT skills</li>
                 <li>
@@ -52,7 +52,6 @@ function EduProVol() {
                   abroad, passionate about IT
                 </li>
               </ul>
-            </p>
             <br />
             <p>
               <strong>
@@ -60,14 +59,13 @@ function EduProVol() {
                 Union
               </strong>
             </p>
-            <p>In college I was part of a student organization called SiSC:</p>
-            <br />
             <p>
               I was a member of the <strong>human resources department</strong>{" "}
               and I aimed to do the following:
-              <div className={styles.containerUL}>
+            </p>
+            <div className={styles.containerUL}>
                 <ul>
-                  <li> I was constantly involved in projects and meetings</li>
+                  <li> I was involved in projects/meetings</li>
                   <li>Mentoring</li>
                   <li>I coordinated a project.</li>
                 </ul>
@@ -76,13 +74,12 @@ function EduProVol() {
                   <li>I organized teambuildings</li>
                 </ul>
               </div>
-            </p>
-            <br />
             <p>
               {" "}
               I was a member of the <strong>IT department</strong> and I aimed
               to do the following:
-              <div className={styles.containerUL}>
+            </p>
+            <div className={styles.containerUL}>
                 <ul>
                   <li>
                     I learned the technologies: HTML, CSS, JavaScript, React
@@ -92,14 +89,10 @@ function EduProVol() {
                     I learned how to organize my tasks to be more efficient
                   </li>
                 </ul>
-                <ul></ul>
               </div>
-            </p>
           </div>
         </div>
-      {/* </div> */}
-      {/* <div className={styles.container2}> */}
-        <div className={styles.experiences}>
+        <div className={styles.box}>
           <h1>Technical / work experiences</h1>
           <div className={styles.contentEx}>
             <ul>
@@ -130,7 +123,7 @@ function EduProVol() {
             </ul>
           </div>
         </div>
-        <div className={styles.certifications}>
+        <div className={styles.box}>
           <h1>Certifications</h1>
           <div className={styles.contentC}>
             <ul>
