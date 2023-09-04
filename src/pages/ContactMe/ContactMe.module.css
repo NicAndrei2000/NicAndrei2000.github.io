@@ -12,8 +12,11 @@
   transform: translate(-50%, -35%);
   height: 440px;
   width: 480px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 238, 255, 1);
+}
+.formStyle p{
+  font-size: 1rem;
 }
 
 .formS {
