@@ -25,20 +25,20 @@ function ViewProjectDetail() {
       descriere: (
         <>
           <p>
-            &nbsp;&nbsp;&nbsp;I made this project to edit videos and watch them.
-            This tool allows me to apply numerous effects to videos. With this
-            solution I got a simplified way to transform videos into captivating
-            creations. The user can upload multiple videos, sort the uploaded
-            videos alphabetically by name and delete them. The user can upload
-            one or more videos at the same time in two ways: either drag and
-            drop or by pressing the "Upload" button where they will be
-            redirected to their personal files.
+            &nbsp;I developed this project as a video editing and viewing tool,
+            offering a wide range of effects to enhance video content. This
+            solution provides a streamlined approach to transforming videos into
+            compelling creations. Users have the ability to upload multiple
+            videos, organize them alphabetically by name, and delete as needed.
+            The upload process supports two convenient methods: drag-and-drop
+            functionality or by selecting the "Upload" button, which redirects
+            users to their personal file repository.
           </p>
         </>
       ),
       technologies: (
         <p>
-          &nbsp;&nbsp;&nbsp;For this project I used the following technologies:{" "}
+          &nbsp;For this project I used the following technologies:{" "}
           <strong> HTML, CSS and JavaScript </strong>.
         </p>
       ),
@@ -60,25 +60,24 @@ function ViewProjectDetail() {
       descriere: (
         <>
           <p>
-            &nbsp;&nbsp;&nbsp;The aim of this project is to create a platform
-            for collaboration between universities and different companies. The
-            developed application contains 4 types of users: the administrator,
-            the user with the role of professor, the user with the role of
-            student and the user with the role of client. Through my
-            application, users with the role of professor will have the right to
-            create a team of several students. Client users will be able to post
-            different projects through the application, which will be viewable
-            by all users. In order to organize projects more efficiently, I have
-            implemented 6 distinct categories in which projects can be placed:
+            &nbsp;The primary objective of this project is to establish a
+            collaborative platform between universities and different companies.
+            The developed application features four distinct user roles: the
+            administrator, professors, students, and clients. Professors, as
+            users, are empowered to assemble teams comprising multiple students,
+            while client users can post diverse projects via the application,
+            making them accessible to all users. To enhance project
+            organization, I have integrated six distinct project categories:
             Programming & Tech, Graphics & Design, Video & Animation, Music &
-            Audio, Creative Writing, Writing & Translation. Existing teams in
-            the app will be able to apply to different projects, and if accepted
-            they will have the right to work on those projects. After completion
-            of the projects, the teams will send links to the clients with the
-            solutions via the app.
+            Audio, Creative Writing, and Writing & Translation. Existing teams
+            within the application are eligible to apply for various projects,
+            and upon acceptance, they gain authorization to work on these
+            projects. Upon project completion, teams will utilize the app to
+            send clients links to their solutions, ensuring efficient project
+            delivery and collaboration.
           </p>
           <br />
-          <p>&nbsp;&nbsp;&nbsp;Advantages of the app:</p>
+          <p>&nbsp;Advantages of the app:</p>
           <div className={styles.LicenseULContainer}>
             <ul>
               <li>
@@ -100,7 +99,7 @@ function ViewProjectDetail() {
       ),
       technologies: (
         <p>
-          &nbsp;&nbsp;&nbsp;For this project I used the following technologies:{" "}
+          &nbsp;For this project I used the following technologies:{" "}
           <strong> HTML, CSS, JavaScript, React and MySQL </strong>.
         </p>
       ),
@@ -131,11 +130,11 @@ function ViewProjectDetail() {
       descriere: (
         <>
           <p>
-            &nbsp;&nbsp;&nbsp;I developed this project with the purpose of
-            highlighting various significant pieces of information about the
-            sport of volleyball. Through this initiative, I have committed to
-            illustrating and bringing to the attention of the sports enthusiasts
-            an array of aspects related to volleyball.
+            &nbsp;I initiated this project with the aim of
+            showcasing essential insights into the world of volleyball. This
+            endeavor reflects my dedication to presenting a comprehensive range
+            of topics and details pertinent to volleyball for the benefit of
+            sports enthusiasts and stakeholders.
           </p>
           <br />
           <div className={styles.ULcontainer}>
@@ -175,7 +174,7 @@ function ViewProjectDetail() {
       ),
       technologies: (
         <p>
-          &nbsp;&nbsp;&nbsp;For this project I used the following technologies:{" "}
+          &nbsp;For this project I used the following technologies:{" "}
           <strong> HTML, CSS and JavaScript </strong>.
         </p>
       ),
@@ -213,9 +212,7 @@ function ViewProjectDetail() {
             <br />
             {selectedProject.technologies}
             <br />
-            <p>
-              &nbsp;&nbsp;&nbsp;Below you can see some pictures of the project.
-            </p>
+            <p>&nbsp;Below you can see some pictures of the project.</p>
             <br />
             <div className={styles.imageSlider}>
               <ImageSlider slides={selectedProject.slides} />

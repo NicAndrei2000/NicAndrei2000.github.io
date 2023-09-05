@@ -10,28 +10,30 @@ function EduProVol() {
           <h1>Education</h1>
           <div className={styles.contentE}>
             <p>
-              <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Highschool: </strong>
+              <strong>&nbsp;Highschool: </strong>
               Piatra Neamt National College of Informatics (2016-2020)
             </p>
             <p>
-              I graduated from high school with a major in computer mathematics,
-              computer science intensive. In those 4 years I learned the basics
-              of IT and realized that I really like IT field.
+              Upon high school graduation, I attained a specialization in
+              computer mathematics. Over the course of those four years, I
+              acquired a foundational understanding of information technology
+              and uncovered a deep affinity for the IT sector.
             </p>
             <br />
             <br />
             <p>
-              <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;University: </strong>
+              <strong>&nbsp;University: </strong>
               Faculty of Cybernetics, Statistics and Informatics(2020-2023)
             </p>
             <p>
-              I majored in Economic Informatics at this faculty. My choice for
-              this major came from a desire to develop my IT skills while
-              simultaneously wanting to learn more about economics. I think it
-              is important to know some basic aspects about economics as well.
-              During college I learned the following technologies: HTML, CSS,
-              JavaScript, React, Java, C#, C/C++ and databases (Oracle SQL and
-              MySQL).
+              I pursued a major in Economic Informatics at this faculty with the
+              intention of enhancing my IT expertise while also gaining a deeper
+              understanding of economics. Recognizing the significance of having
+              a foundational knowledge of economics, I made this choice.
+              Throughout my college journey, I acquired proficiency in various
+              technologies, including HTML, CSS, JavaScript, React, Java, C#,
+              C/C++, and database management systems such as Oracle SQL and
+              MySQL.
             </p>
           </div>
         </div>
@@ -40,22 +42,22 @@ function EduProVol() {
           <div className={styles.contentV}>
             <p>
               <strong>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROSOFT multidisciplinary
+                &nbsp;PROSOFT multidisciplinary
                 competition{" "}
               </strong>
             </p>
             <ul className={styles.containerUL2}>
-                <li>I have exchanged IT experience with people from abroad</li>
-                <li>I developed my IT skills</li>
-                <li>
-                  I had the opportunity to see another perspective from people
-                  abroad, passionate about IT
-                </li>
-              </ul>
+              <li>I have exchanged IT experience with people from abroad</li>
+              <li>I developed my IT skills</li>
+              <li>
+                I had the opportunity to see another perspective from people
+                abroad, passionate about IT
+              </li>
+            </ul>
             <br />
             <p>
               <strong>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SiSC - Cybernetics Students
+                &nbsp;SiSC - Cybernetics Students
                 Union
               </strong>
             </p>
@@ -64,32 +66,31 @@ function EduProVol() {
               and I aimed to do the following:
             </p>
             <div className={styles.containerUL}>
-                <ul>
-                  <li> I was involved in projects/meetings</li>
-                  <li>Mentoring</li>
-                  <li>I coordinated a project.</li>
-                </ul>
-                <ul>
-                  <li>I did interactive activities to unite all departments</li>
-                  <li>I organized teambuildings</li>
-                </ul>
-              </div>
+              <ul>
+                <li> I was involved in projects/meetings</li>
+                <li>Mentoring</li>
+                <li>I coordinated a project.</li>
+              </ul>
+              <ul>
+                <li>I did interactive activities to unite all departments</li>
+                <li>I organized teambuildings</li>
+              </ul>
+            </div>
             <p>
               {" "}
-              I was a member of the <strong>IT department</strong> and I aimed
-              to do the following:
+              During a specific project, I was part of
+              <strong> IT department</strong> and I had the following
+              objectives:
             </p>
             <div className={styles.containerUL}>
-                <ul>
-                  <li>
-                    I learned the technologies: HTML, CSS, JavaScript, React
-                  </li>
-                  <li>I learned to work both individually and collectively</li>
-                  <li>
-                    I learned how to organize my tasks to be more efficient
-                  </li>
-                </ul>
-              </div>
+              <ul>
+                <li>
+                  I learned the technologies: HTML, CSS, JavaScript, React
+                </li>
+                <li>I learned to work both individually and collectively</li>
+                <li>I learned how to organize my tasks to be more efficient</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className={styles.box}>
@@ -113,7 +114,7 @@ function EduProVol() {
               </li>
               <p>
                 &nbsp;&nbsp;&nbsp; I worked in the IT frontend field. I
-                developed my skills in: HTML, CSS, JavaScript and React.
+                developed my skills in: HTML, CSS and JavaScript.
               </p>
               <br />
               <li>

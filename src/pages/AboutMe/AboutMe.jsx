@@ -9,18 +9,27 @@ function AboutMe() {
       </h1>
       <div className={styles.content}>
         <p>
-          &nbsp;&nbsp;&nbsp; My name is Niculita Andrei and I am a recent
-          graduate of CSIE (Faculty of Cybernetics, Statistics and Informatics),
-          specialization in computer science-economics. First of all I would
-          like to tell you a few things about myself. I am an ambitious person
-          who likes challenges, I like to travel and I like to do sports. For me
-          when I do sports I relax and forget about all the problems. In total I
-          have played 2 performance sports: tennis and volleyball. Since high
-          school I liked to volunteer. I always tried to get involved in all
-          projects. This developed me personally a lot and I decided to do
-          voluntary work at university. Currently I am part of an organization
-          called SiSC (Student Union of Cybernetics). I am part of the IT
-          department and my role is to create websites for different projects.
+          &nbsp;&nbsp;&nbsp;I am Niculita Andrei, a recent graduate of CSIE
+          (Faculty of Cybernetics, Statistics, and Informatics), specializing in
+          computer science-economics. I would like to take this opportunity to
+          introduce myself and provide some insights into my background and
+          interests. I am a driven individual who thrives on tackling challenges
+          and possesses a strong passion for travel and sports. Engaging in
+          physical activities serves as a means of relaxation and allows me to
+          temporarily set aside any concerns or issues. I have actively
+          participated in two high-performance sports: tennis and volleyball. My
+          commitment to involvement dates back to my high school years, where I
+          initially discovered my enthusiasm for volunteering. I consistently
+          sought opportunities to contribute to various projects, and this
+          commitment significantly contributed to my personal growth.
+          Subsequently, I decided to extend my involvement in volunteer work
+          into my university years. Currently, I am a member of SiSC (Student
+          Union of Cybernetics), where I serve within the HR department. I also
+          played a role in the IT department during a particular project. As a
+          member of IT, my role was to be involved mainly on website
+          development. This experience has allowed me to further enhance my
+          technical skills and contribute meaningfully to the organization's
+          objectives.
         </p>
         <br />
         <p>
