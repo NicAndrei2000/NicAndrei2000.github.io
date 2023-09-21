@@ -120,28 +120,28 @@
 }
 
 .progressLine.html span {
-  width: 95%;
+  width: 100%;
 }
 .progressLine.css span {
-  width: 95%;
+  width: 100%;
 }
 .progressLine.JavaScript span {
-  width: 85%;
+  width: 100%;
 }
 .progressLine.React span {
-  width: 82%;
+  width: 66%;
 }
 .progressLine.Cplusplus span {
-  width: 70%;
+  width: 66%;
 }
 .progressLine.CSharp span {
-  width: 65%;
+  width: 33%;
 }
 .progressLine.Java span {
-  width: 72%;
+  width: 66%;
 }
 .progressLine.MySQLOracle span {
-  width: 75%;
+  width: 66%;
 }
 .progressLine span::after {
   position: absolute;
@@ -156,28 +156,28 @@
   /* opacity: 0; */
 }
 .progressLine.html span::after {
-  content: "95%";
+  content: "Advanced";
 }
 .progressLine.css span::after {
-  content: "95%";
+  content: "Advanced";
 }
 .progressLine.JavaScript span::after {
-  content: "85%";
+  content: "Advanced";
 }
 .progressLine.React span::after {
-  content: "82%";
+  content: "Intermediate";
 }
 .progressLine.Cplusplus span::after {
-  content: "70%";
+  content: "Intermediate";
 }
 .progressLine.CSharp span::after {
-  content: "65%";
+  content: "Elementary";
 }
 .progressLine.Java span::after {
-  content: "72%";
+  content: "Intermediate";
 }
 .progressLine.MySQLOracle span::after {
-  content: "75%";
+  content: "Intermediate";
 }
 
 .progressLine span::before {

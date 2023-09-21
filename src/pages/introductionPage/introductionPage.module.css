@@ -151,3 +151,17 @@
   }
 }
 
+@media screen and (max-height: 560px) {
+  .myImage {
+    top: 0%;
+    width: 70%;
+  }
+  .myImage:before {
+    max-width: 268px;
+    max-height: 268px;
+  }
+  .myImage img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
