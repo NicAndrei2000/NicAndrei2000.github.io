@@ -12,7 +12,7 @@ function Projects() {
           <p>Click here to find out more about this project!</p>
           <br />
           <br />
-          <p>I used the following technologies: HTML, CSS, JavaScript.</p>
+          <p>I used the technologies: HTML, CSS, JavaScript.</p>
         </>
       ),
       img: "img1",
@@ -26,7 +26,7 @@ function Projects() {
           <br />
           <br />
           <p>
-            I used the following technologies: HTML, CSS, JavaScript, React and
+            I used the technologies: HTML, CSS, JavaScript, React, Node.js and
             MySQL.
           </p>
         </>
@@ -41,7 +41,7 @@ function Projects() {
           <p>Click here to find out more about this project!</p>
           <br />
           <br />
-          <p>I used the following technologies: HTML, CSS, JavaScript.</p>
+          <p>I used the technologies: HTML, CSS, JavaScript.</p>
         </>
       ),
       img: "img1",

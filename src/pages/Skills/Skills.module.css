@@ -128,6 +128,9 @@
 .progressLine.JavaScript span {
   width: 100%;
 }
+.progressLine.NodeJS span {
+  width: 33%;
+}
 .progressLine.React span {
   width: 66%;
 }
@@ -163,6 +166,9 @@
 }
 .progressLine.JavaScript span::after {
   content: "Advanced";
+}
+.progressLine.NodeJS span::after {
+  content: "Elementary";
 }
 .progressLine.React span::after {
   content: "Intermediate";
@@ -273,32 +279,32 @@
 
 @keyframes animate-communication {
   100% {
-    stroke-dashoffset: 35;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes animate-Creativity {
   100% {
-    stroke-dashoffset: 90;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes animate-Teamwork {
   100% {
-    stroke-dashoffset: 45;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes animate-Adaptability {
   100% {
-    stroke-dashoffset: 93;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes animate-ProblemSolving {
   100% {
-    stroke-dashoffset: 55;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes animate-TimeManagement {
   100% {
-    stroke-dashoffset: 67;
+    stroke-dashoffset: 0;
   }
 }
 

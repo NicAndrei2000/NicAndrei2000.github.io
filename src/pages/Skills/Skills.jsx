@@ -37,6 +37,14 @@ function Skills() {
             </div>
             <div className={styles.bar}>
               <div className={styles.info}>
+                <span>Node.js</span>
+              </div>
+              <div className={`${styles.progressLine} ${styles.NodeJS}`}>
+                <span></span>
+              </div>
+            </div>
+            <div className={styles.bar}>
+              <div className={styles.info}>
                 <span>React</span>
               </div>
               <div className={`${styles.progressLine} ${styles.React}`}>
@@ -96,7 +104,7 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>98%</div>
+              <div className={styles.percentage}></div>
               <div className={styles.text}>Communication</div>
             </div>
 
@@ -115,8 +123,8 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>84%</div>
-              <div className={styles.text}>Creativity</div>
+              <div className={styles.percentage}></div>
+              <div className={styles.text}>Critical thinking</div>
             </div>
             <div className={styles.radialBar}>
               <svg x="0px" y="0px" viewBox="0 0 200 200">
@@ -133,7 +141,7 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>95%</div>
+              <div className={styles.percentage}></div>
               <div className={styles.text}>Teamwork</div>
             </div>
             <div className={styles.radialBar}>
@@ -151,7 +159,7 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>83%</div>
+              <div className={styles.percentage}></div>
               <div className={styles.text}>Adaptability</div>
             </div>
             <div className={styles.radialBar}>
@@ -169,7 +177,7 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>92%</div>
+              <div className={styles.percentage}></div>
               <div className={styles.text}>Problem-solving</div>
             </div>
             <div className={styles.radialBar}>
@@ -187,7 +195,7 @@ function Skills() {
                   r="80"
                 ></circle>
               </svg>
-              <div className={styles.percentage}>88%</div>
+              <div className={styles.percentage}></div>
               <div className={styles.text}>Time management</div>
             </div>
           </div>

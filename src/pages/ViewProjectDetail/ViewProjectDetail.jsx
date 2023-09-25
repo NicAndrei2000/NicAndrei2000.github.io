@@ -100,7 +100,7 @@ function ViewProjectDetail() {
       technologies: (
         <p>
           &nbsp;For this project I used the following technologies:{" "}
-          <strong> HTML, CSS, JavaScript, React and MySQL </strong>.
+          <strong> HTML, CSS, JavaScript, React, Node.js and MySQL </strong>.
         </p>
       ),
       slides: [
